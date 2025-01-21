@@ -1,3 +1,4 @@
+#This is Grade System Calculator in Python Language.
 sub1 = int(input("Enter marks for subject 1: \n"))
 sub2 = int(input("Enter marks for subject 2: \n"))
 sub3 = int(input("Enter marks for subject 3: \n"))
