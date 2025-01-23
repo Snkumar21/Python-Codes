@@ -5,5 +5,6 @@ course_name = ['Python', 'DSA', 'Profile Building Communication', 'Software Proj
 
 if len(course_name) > 5:
     course_name[5] = 'Pre-Placement Training'
-    
+
+#Print Output
 print(course_name)
