@@ -1,3 +1,4 @@
+# This code will remove duplicate element from the list in python.
 # Create a list of 10 elements
 elements = [int(input(f"Enter element {i+1}: ")) for i in range(10)]
 
