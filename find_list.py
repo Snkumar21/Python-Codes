@@ -1,3 +1,4 @@
+# This is finder code of element from an index.
 ls = [20, 39, 28, 19, 328, 4, 74]
 
 # Input the index to retrieve the value
