@@ -1,4 +1,4 @@
-#Dictionary
+#Dictionary Codes using Python Language.
 dict1 = {} 
 print(dict1, '\n')
 
