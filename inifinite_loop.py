@@ -1,3 +1,4 @@
+# This is a python code for inifinite looping structure.
 # Example: Controlled loop to avoid an infinite loop
 count = 0
 
