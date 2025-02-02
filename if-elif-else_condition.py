@@ -1,4 +1,4 @@
-# if-elif-else Conditional Statement Code using user defined value in python.
+#if-elif-else Conditional Statement Code
 
 x = int(input("Enter a number: "))
 
