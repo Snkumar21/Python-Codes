@@ -1,4 +1,4 @@
-#if-else Conditional Statement Code
+#if-else Conditional Statement Code using user defined values.
 
 x = int(input("Enter a number: "))
 
