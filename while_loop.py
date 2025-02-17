@@ -1,4 +1,4 @@
-#while loop code
+# while loop code using user-defined value.
 
 x = int(input("Enter a number: "))
 
