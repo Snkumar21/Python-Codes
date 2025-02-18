@@ -1,23 +1,20 @@
+# This is a menu driven program in sets.
 def create_set():
-    """Creates a set based on user input."""
     elements = input("Enter set elements (comma-separated): ").split(',')
     return set(map(str.strip, elements))  # Remove whitespace
 
 
 def display_set(s):
-    """Displays the set."""
     print(f"Set: {s}\n")
 
 
 def add_element(s):
-    """Adds an element to the set."""
     element = input("Enter element to add: ").strip()
     s.add(element)
     print(f"Updated set: {s}\n")
 
 
 def remove_element(s):
-    """Removes an element from the set (throws error if not found)."""
     element = input("Enter element to remove: ").strip()
     if element in s:
         s.remove(element)
@@ -27,14 +24,12 @@ def remove_element(s):
 
 
 def discard_element(s):
-    """Removes an element from the set (no error if not found)."""
     element = input("Enter element to discard: ").strip()
     s.discard(element)
     print(f"Updated set: {s}\n")
 
 
 def pop_element(s):
-    """Removes and returns a random element from the set."""
     if s:
         removed = s.pop()
         print(f"Removed element: {removed}")
@@ -44,13 +39,11 @@ def pop_element(s):
 
 
 def clear_set(s):
-    """Clears the set."""
     s.clear()
     print("Set is now empty.\n")
 
 
 def set_operations(s1, s2):
-    """Performs set operations on two sets."""
     print(f"\nFirst Set: {s1}")
     print(f"Second Set: {s2}")
 
