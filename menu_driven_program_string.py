@@ -1,3 +1,4 @@
+# This is a menu driven program of String.
 # Input
 string = 'This is a Simple String'
 
