@@ -1,21 +1,19 @@
+# This is a menu driven program of Tuple. All functions are used in this.
+
 def create_tuple():
-    """Creates a tuple based on user input."""
     elements = input("Enter tuple elements (comma-separated): ").split(',')
     return tuple(map(str.strip, elements))  # Remove whitespace
 
 
 def display_tuple(tup):
-    """Displays the tuple."""
     print(f"Tuple: {tup}\n")
 
 
 def get_length(tup):
-    """Returns the length of the tuple."""
     print(f"Length of tuple: {len(tup)}\n")
 
 
 def get_max(tup):
-    """Returns the maximum element of the tuple (numeric values only)."""
     try:
         print(f"Maximum element: {max(map(int, tup))}\n")
     except ValueError:
@@ -23,7 +21,6 @@ def get_max(tup):
 
 
 def get_min(tup):
-    """Returns the minimum element of the tuple (numeric values only)."""
     try:
         print(f"Minimum element: {min(map(int, tup))}\n")
     except ValueError:
@@ -31,7 +28,6 @@ def get_min(tup):
 
 
 def get_sum(tup):
-    """Returns the sum of elements (numeric values only)."""
     try:
         print(f"Sum of elements: {sum(map(int, tup))}\n")
     except ValueError:
@@ -39,7 +35,6 @@ def get_sum(tup):
 
 
 def find_index(tup):
-    """Finds the index of an element in the tuple."""
     element = input("Enter the element to find index: ").strip()
     if element in tup:
         print(f"Index of '{element}': {tup.index(element)}\n")
@@ -48,13 +43,11 @@ def find_index(tup):
 
 
 def count_occurrences(tup):
-    """Counts occurrences of an element in the tuple."""
     element = input("Enter the element to count: ").strip()
     print(f"'{element}' appears {tup.count(element)} times in the tuple.\n")
 
 
 def sort_tuple(tup):
-    """Sorts the tuple (returns a list since tuples are immutable)."""
     try:
         sorted_tuple = sorted(map(int, tup))
         print(f"Sorted tuple (as list): {sorted_tuple}\n")
