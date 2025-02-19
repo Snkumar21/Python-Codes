@@ -1,3 +1,4 @@
+# This delete duplicate word from the given string.
 string = input("Enter the string : ")
 
 value = string.split()
