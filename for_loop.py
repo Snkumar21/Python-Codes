@@ -1,4 +1,4 @@
-#for loop code
+# For loop code using user-define in python
 
 x = int(input("Enter a number: "))
 
