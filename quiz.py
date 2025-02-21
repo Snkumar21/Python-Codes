@@ -1,7 +1,8 @@
+# Quiz program code.
 import json
 
+# Questions define
 def load_questions(topic):
-    """Load questions based on the selected topic"""
     questions = {
         "math": [
             {"question": "What is 5 + 3?", "options": ["6", "8", "10", "7"], "answer": "8"},
@@ -15,7 +16,7 @@ def load_questions(topic):
     return questions.get(topic.lower(), [])
 
 def ask_questions(questions):
-    """Ask each question and get user's answers"""
+    # Ask each question and get user's answers
     score = 0
     for idx, q in enumerate(questions, 1):
         print(f"\nQ{idx}: {q['question']}")
