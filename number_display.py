@@ -1,3 +1,4 @@
+# Example of displaying number in words using switch case in python language.
 num = int(input("Enter any number from 0 to 9 :"))
 
 if num == 0:
