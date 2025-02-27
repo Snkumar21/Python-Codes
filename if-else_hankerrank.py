@@ -1,3 +1,4 @@
+# Example of if-else condition of HackerRank.
 n = int(input("Enter the number :"))
 
 if n % 2 != 0:
