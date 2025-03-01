@@ -1,3 +1,4 @@
+# Example of list displaying a particular element from the list.
 list_ds = [5, 6, 7, 'access-the-elements', 4.55, 20, 50]
 
 #for <variable name> in <sequence>
