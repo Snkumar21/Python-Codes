@@ -1,4 +1,6 @@
-#Built in Module in python
+# Example of Module in python
+
+# Built in Module in python
 import math
 import math as ma
 from math import pi,factorial
@@ -20,9 +22,8 @@ var1=dir(platform)
 print(var1)
 print(time.asctime())
 print(dir(math))
-"""
+
 # Custom Module in python
-"""
 def lab(labname):
     print("Welcome to "+ labname)
 
