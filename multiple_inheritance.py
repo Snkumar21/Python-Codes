@@ -1,4 +1,5 @@
-#Multiple Inheritance
+# Multiple Inheritance in python.
+
 class Parent1:
     def parentfunc1(self):
         print("This function belongs to parent1")
