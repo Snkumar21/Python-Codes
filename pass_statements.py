@@ -1,3 +1,4 @@
+# Example of pass statement in python
 import math
 
 #Use of pass statement inside function
