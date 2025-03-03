@@ -1,3 +1,5 @@
+# Example of passing a parameter in python.
+
 def gm(name):#name is called as a parameter
     print("Good Morning",name)
 
