@@ -1,3 +1,4 @@
+# Example of Pattern printing using '*' from leftside.
 # Input from the user
 n = int(input("Enter the number of rows: "))
 
