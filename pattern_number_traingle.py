@@ -1,3 +1,5 @@
+# Example of printing pattern using numbers.
+
 # Input from the user
 n = int(input("Enter the number of rows: "))
 
