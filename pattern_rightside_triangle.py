@@ -1,3 +1,4 @@
+# Example of pattern printing from rightside of the triangle.
 # Input from user
 n = int(input("Enter the number of rows: "))
 
