@@ -1,3 +1,5 @@
+# Example of pattern printing of normal triangle using '*'.
+
 # Input from the user
 n = int(input("Enter the number of rows: "))
 
