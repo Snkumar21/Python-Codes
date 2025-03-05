@@ -1,3 +1,5 @@
+# Example of pattern printing in shape of square using '*'.
+
 # Input from the user
 n = int(input("Enter the number of rows: "))
 num = 1
