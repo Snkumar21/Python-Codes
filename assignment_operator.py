@@ -1,4 +1,4 @@
-#Assignment Operator
+# Example of assignment operator in python
 
 print("Assignment Operators")
 a = 10
