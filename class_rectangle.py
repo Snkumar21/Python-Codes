@@ -1,4 +1,5 @@
 # Write a program to implement a class named as rectangle, it has a method which computes the area and displays it?
+# Example of rectangle area display using a class operator.
 
 class Rectangle:
     def __init__(self):
