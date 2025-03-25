@@ -1,4 +1,4 @@
-#Bitwise Operator
+# Example of bitwise operator in python.
 
 #User Defined
 num1 = int(input("Enter the first number: "))
