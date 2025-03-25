@@ -1,3 +1,5 @@
+# Example of a birthday calculator using python.
+
 from datetime import datetime, timedelta
 
 class Birthday:
