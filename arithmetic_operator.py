@@ -1,4 +1,4 @@
-#Arithmetic Operators
+# Example of arithmetic operators in python.
 
 #User Defined
 num1 = int(input("Enter the first number: "))
