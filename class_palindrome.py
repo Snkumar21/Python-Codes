@@ -1,4 +1,5 @@
 # Create a class, create user defined method to check whether a string is palindrome or not?
+# Example of palindrome using a class operator.
 
 class Palindrome:
     def __init__(self, str):
