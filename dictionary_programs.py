@@ -1,4 +1,4 @@
-#Dictionary
+# Example of Dictionary in python.
 dict1 = {} 
 print(dict1)
 
