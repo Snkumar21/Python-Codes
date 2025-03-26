@@ -1,3 +1,5 @@
+# Example of dataType in list in python.
+
 myList = []
 print(myList)
 
