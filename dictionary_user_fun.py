@@ -1,3 +1,5 @@
+# Example of dictionary in python.
+
 # Class to find square roots using a dictionary
 class Square:
     def __init__(self, square_dict):
