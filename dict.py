@@ -1,3 +1,4 @@
+# Example of dictionary programs in python.
 dict1 = {}
 print(dict1) # Output:- {}
 
