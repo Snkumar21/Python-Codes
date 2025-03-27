@@ -1,4 +1,5 @@
-# Identity Operators
+# Example of identity operators in python...
+
 print("Identity Operators")
 x = [1, 2, 3]
 y = [1, 2, 3]
