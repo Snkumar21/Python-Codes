@@ -1,5 +1,6 @@
+# Example of multiple codes execution in a single program in python.
 no = 3
-if no < 5:
+if no < 5: # Conditional checking...
     print("The number is less than 5")
 
 setflag = True
