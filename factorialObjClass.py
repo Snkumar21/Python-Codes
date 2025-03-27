@@ -1,4 +1,4 @@
-# Write python program to implement class, object, user defined function to display factorial of a number?
+# Example to implement class, object, user defined function to display factorial of a number in python.
 
 class Factorial:
     def __init__(self, num):
