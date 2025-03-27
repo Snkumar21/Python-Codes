@@ -1,4 +1,4 @@
-# Program to input a number from the use and display wreathe the number is greater or less
+# Program to input a number from the use and display weather the number is greater or less...
 
 no1 = int(input("Enter first number: "))
 no2 = int(input("Enter second number: "))
