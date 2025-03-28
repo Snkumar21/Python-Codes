@@ -1,4 +1,4 @@
-#if Conditional Statement Code
+# Example of if conditional statement code in python...
 
 x = int(input("Enter a number: "))
 
