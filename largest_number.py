@@ -1,4 +1,5 @@
-# Largest Number Finder
+# Example of Largest Number Finder using user-defined value in python...
+
 # Take three numbers as input
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
