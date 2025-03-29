@@ -1,3 +1,5 @@
+# Example of menu driven program for managing Student details in python...
+
 def display_menu():
     print("\nMenu:")
     print("1. Add a student")
