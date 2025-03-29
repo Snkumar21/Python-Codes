@@ -1,4 +1,5 @@
-# Membership Operators
+# Example of membership operators in python...
+
 print("Membership Operators")
 my_list = [1, 2, 3, 4, 5]
 element = 3
