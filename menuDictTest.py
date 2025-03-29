@@ -1,4 +1,4 @@
-# Write menu driven python program to implement at least 5 built-in functions of dictionary.
+# Example of menu driven python program to implement at least 5 built-in functions of dictionary.
 
 def display_menu():
     print("1. Add a key-value pair")
