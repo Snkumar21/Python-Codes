@@ -1,4 +1,4 @@
-#nested-if Condition Statement code
+# Example of nested-if condition statement code in python...
 
 x = int(input("Enter a number: "))
 
