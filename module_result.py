@@ -1,5 +1,6 @@
-import module_program
+# Example of module program of a sum...
 
+import module_program
 
 module_program.lab('Python lab')
 
