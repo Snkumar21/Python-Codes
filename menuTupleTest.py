@@ -1,4 +1,4 @@
-# Write menu driven python program to implement at least 5 built-in functions of tuple.
+# Example of menu driven python program to implement at least 5 built-in functions of tuple.
 
 def displayMenu():
     print("\nMenu:")
