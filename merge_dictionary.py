@@ -1,3 +1,5 @@
+# Example of merging dictionary using dictionary unpacking in python...
+
 # Creating two dictionaries
 dict1 = {'name': 'Nitish', 'age': 22, 'city': 'Pune', 'gender': 'Male', 'country': 'India'}
 dict2 = {'profession': 'Technologist', 'salary': 1500000, 'company': 'Tech Brain', 'experience': 5, 'married': False}
