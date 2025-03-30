@@ -1,8 +1,8 @@
-# Program to demonstrate the use of variable and different operators in python
+# Example of operators in python...
 
 # Use of variables
-name = "Patrick"
-age = 26
+name = "Nitish"
+age = 22
 print("Name:-", name)
 print("Age:-", age)
 
