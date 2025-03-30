@@ -1,4 +1,4 @@
-# Example of Multilevel Inheritance
+# Example of multilevel inheritance in python...
 
 class Parent:
     def parentfunct(self):
