@@ -1,3 +1,5 @@
+# Example of printing month by name in python...
+
 month = int(input("Enter the month :"))
 
 if month == 1:
