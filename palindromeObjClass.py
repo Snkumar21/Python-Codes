@@ -1,4 +1,4 @@
-# Write python program to implement class, object, user defined function to check whether the number is palindrome or not?
+# Example of python program to implement class, object, user defined function to check whether the number is palindrome or not...
 
 class Palindrome:
     def __init__(self, num):
