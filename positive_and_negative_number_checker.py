@@ -1,3 +1,5 @@
+# Example of positive and negative number checker in python..
+
 num = int(input("Enter the number :"))
 
 if num > 0:
