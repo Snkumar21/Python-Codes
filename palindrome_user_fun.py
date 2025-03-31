@@ -1,4 +1,5 @@
-# This is Palindrome finder using user-defined function
+# Example of palindrome finder using user-defined function in python...
+
 class PalindromeChecker:
     def __init__(self, num):
         self.num = num
