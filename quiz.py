@@ -1,3 +1,5 @@
+# Example of quiz making project in python...
+
 import json
 
 def load_questions(topic):
