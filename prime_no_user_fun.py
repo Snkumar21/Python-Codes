@@ -1,4 +1,4 @@
-# Q1.create a class and user defined function input a range of a number from the user and display all prime numbers
+# Example of create a class and user defined function input a range of a number from the user and display all prime numbers
 
 class PrimeNumbers:
     def __init__(self, start, end):
