@@ -1,4 +1,4 @@
-# Write python program to implement class, object, user defined function to display reverse of a number?
+# Example of python program to implement class, object, user defined function to display reverse of a number...
 
 class Reverse:
     def __init__(self, num):
