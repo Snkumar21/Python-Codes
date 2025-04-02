@@ -1,3 +1,5 @@
+# Example of reverse a string in python...
+
 string = input("Enter the string: ")
 
 print("Original String :",string)
