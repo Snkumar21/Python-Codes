@@ -1,4 +1,4 @@
-# Set programs using python.
+# Example of Set programs in python...
 # Author: Nitish Kumar Singh
 
 set_ds = {1,1,2,3,3,4,5,6,7,7}
