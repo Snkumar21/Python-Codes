@@ -1,3 +1,5 @@
+# Example of rotate word in python using user-defined function...
+
 def rotate_word(word, shift):
     rotated_word = ""
     
