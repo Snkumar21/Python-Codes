@@ -1,4 +1,4 @@
-# Create a list of 20 elements and display it in reverse order.
+# Example of a list of 20 elements and display it in reverse order in python...
 
 my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
