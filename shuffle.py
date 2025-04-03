@@ -1,3 +1,5 @@
+# Example of shuffle a number in python...
+
 import random
 
 numbers = list(range(1, 11))
