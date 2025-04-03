@@ -1,3 +1,5 @@
+# Example of single inheritance in python...
+
 class parent:
     def parentFun(self):
         print("Parent class function")
