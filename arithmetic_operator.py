@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Arithmetic Operators
 
 #User Defined
@@ -20,3 +21,27 @@ print("Modulus: ", num1 % num2)
 print("Exponent: ", num1 ** num2)
 
 print("Floor Division: ", num1 // num2)
+=======
+# Example of arithmetic operators in python.
+
+#User Defined
+num1 = int(input("Enter the first number: "))
+
+num2 = int(input("Enter the second number: "))
+
+
+#Printed Add, Sub, Mul, Div, Mod, Exponent, Floor Division
+print("Addition : ", num1 + num2)
+
+print("Subtraction: ", num1 - num2)
+
+print("Multiplication: ", num1 * num2)
+
+print("Division: ", num1 / num2)
+
+print("Modulus: ", num1 % num2)
+
+print("Exponent: ", num1 ** num2)
+
+print("Floor Division: ", num1 // num2)
+>>>>>>> 2f455337bbd98e35313ab1d5f2b408fa185fca51
