@@ -1,3 +1,4 @@
+# Example of count character from a sting...
 def count_characters(s):
     char_count = {}
     for char in s:

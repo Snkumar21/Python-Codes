@@ -1,3 +1,5 @@
+# Example of count and display total number...
+
 def count_total_words(filename):
     total_words = 0
     try:

@@ -1,3 +1,4 @@
+# Example of count number of lines in python...
 def count_lines_not_starting_with_T(filename):
     count = 0
     try:

@@ -1,6 +1,6 @@
 # Example of comparison operator using user-define value.
 
-#User Defined
+# User Defined
 num1 = int(input("Enter the first number: "))
 
 num2 = int(input("Enter the second number: "))
