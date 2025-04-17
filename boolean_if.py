@@ -1,4 +1,4 @@
-#Boolean if Condition Python Code
+# Example of Boolean if Condition Python Code
 
 setFlag = True
 

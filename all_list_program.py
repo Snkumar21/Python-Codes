@@ -1,3 +1,5 @@
+# Example of all programs of list in python...
+
 # This a switch case of all cases of list in python
 def display_menu():
     print("\nList Functions Menu:")
@@ -11,7 +13,7 @@ def display_menu():
     print("8. Display the list")
     print("9. Exit")
 
-ls = ['nitish', 9, 10, 'aastha', 83, 10, 'tejaswini', 'keval', 'arvind', 2, 1, 84, 'kunal', 392, 'aaditee', 'arsh', 92, 13, 86]
+ls = ['nitish', 9, 10, 'aastha', 83, 10, 'tejaswini', 'keval', 'arvind', 2, 1, 84, 'kunal', 392, 'aaditee', 'arshiyan', 92, 13, 86]
 
 while True:
     display_menu()
