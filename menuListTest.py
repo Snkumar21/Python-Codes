@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Write menu driven python program to implement at least 5 built-in functions of list.
-=======
 # Example of menu driven python program to implement at least 5 built-in functions of list.
 
 def menu():
@@ -67,4 +64,3 @@ while True:
 
     else:
         print("Invalid choice! Please select from 1 to 7.")
->>>>>>> 2f455337bbd98e35313ab1d5f2b408fa185fca51

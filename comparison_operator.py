@@ -1,24 +1,3 @@
-<<<<<<< HEAD
-#Comparison Operator
-
-#User Defined
-num1 = int(input("Enter the first number: "))
-
-num2 = int(input("Enter the second number: "))
-
-if num1 == num2:
-    print("Both numbers are equal")
-elif num1 > num2:
-    print("Number", num1, "is greater than", num2)
-elif num1 < num2:
-    print("Number", num1, "is smaller than", num2)
-elif num1 >= num2:
-    print("Number", num1, "is greater than or equal to", num2)
-elif num1 <= num2:
-    print("Number", num1, "is smaller than or equal to", num2)
-else:
-    print("Number is not equal to")
-=======
 # Example of comparison operator using user-define value.
 
 #User Defined
@@ -38,4 +17,3 @@ elif num1 <= num2:
     print("Number", num1, "is smaller than or equal to", num2)
 else:
     print("Number is not equal to")
->>>>>>> 2f455337bbd98e35313ab1d5f2b408fa185fca51
