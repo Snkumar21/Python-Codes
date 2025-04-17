@@ -1,4 +1,4 @@
-#Arithmetic Operations using Switch Case in python.
+# Example of Arithmetic Operations using Switch Case in python.
 
 def add(a, b):
     return a + b

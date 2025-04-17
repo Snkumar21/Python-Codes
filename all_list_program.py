@@ -1,4 +1,4 @@
-#This a switch case of all cases of list in python
+# This a switch case of all cases of list in python
 def display_menu():
     print("\nList Functions Menu:")
     print("1. Add an element")
