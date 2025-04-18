@@ -1,0 +1,13 @@
+# Example of pandas as pd in python...
+
+import pandas as pd
+
+# Creating a list...
+list1 = [100, 200, 300, 400, 500]
+
+# Create a series from the list...
+seriesd = pd.Series(list1)
+print(seriesd)
+
+# Display third value in the series...
+print(seriesd[2])

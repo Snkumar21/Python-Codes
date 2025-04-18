@@ -1,4 +1,4 @@
-#All Data Types are printed here in the python code
+# Example of all Data Types are printed here in the python code
 
 num1 = 5
 num2 = 10.5

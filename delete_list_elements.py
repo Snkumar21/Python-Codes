@@ -1,4 +1,4 @@
-#Delete list element from using Index value from the List in Python.
+#Example of deleting list element from using Index value from the List in Python.
 
 list_ds = [5, 6, 7, 'access-the-elements', 4.55, 20, 50]
 

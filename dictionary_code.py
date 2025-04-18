@@ -1,4 +1,4 @@
-#Dictionary Codes using Python Language.
+# Example of Dictionary Codes using Python Language.
 dict1 = {} 
 print(dict1, '\n')
 
