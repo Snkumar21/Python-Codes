@@ -1,25 +1,13 @@
-n = int(input())
-
-for i in range(1, 2 * n):
-    if i <= n:
-        row = i
-    else:
-        row = 2 * n - i
-
-    # Print leading tabs
-    print("\t" * (n - row), end="")
-
-    # Calculate starting number
-    start = row
-    count = 2 * row - 1
-
-    # Print increasing then decreasing numbers
-    for j in range(1, count + 1):
-        if j <= row:
-            print(start, end="\t")
-            start += 1
-        else:
-            start -= 1
-            print(start, end="\t")
-
-    print()
+N = int(input())
+# Upper half including middle row
+for i in range(1, N + 1):
+    indent = '\t' * (N - i)
+    inc = [str(i + j) for j in range(i)]
+    dec = [str(i + j) for j in range(i - 2, -1, -1)]
+    print(indent + '\t'.join(inc + dec))
+# Lower half
+for i in range(N - 1, 0, -1):
+    indent = '\t' * (N - i)
+    inc = [str(i + j) for j in range(i)]
+    dec = [str(i + j) for j in range(i - 2, -1, -1)]
+    print(indent + '\t'.join(inc + dec))

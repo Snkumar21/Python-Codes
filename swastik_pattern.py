@@ -1,35 +1,22 @@
-n = int(input("Enter an odd number (n ≥ 5): "))
+# Read input (odd N ≥ 5)
+N = int(input().strip())
+mid = N // 2
 
-if n < 5 or n % 2 == 0:
-    print("Please enter an odd number greater than or equal to 5.")
-else:
-    for i in range(n):
-        for j in range(n):
-            # Top half
-            if i == 0:
-                if j >= n // 2 or j == 0:
-                    print("*", end="\t")
-                else:
-                    print(" ", end="\t")
-            # Upper middle part
-            elif i < n // 2:
-                if j == 0 or j == n // 2:
-                    print("*", end="\t")
-                else:
-                    print(" ", end="\t")
-            # Middle line
-            elif i == n // 2:
-                print("*", end="\t")
-            # Bottom half
-            elif i < n - 1:
-                if j == n - 1 or j == n // 2:
-                    print("*", end="\t")
-                else:
-                    print(" ", end="\t")
-            # Last line
+for i in range(N):
+    for j in range(N):
+        if i < mid:
+            # Top half: left arm, vertical drop, and top arm
+            if j == 0 or j == mid or (i == 0 and j > mid):
+                print('*', end='')
             else:
-                if j <= n // 2 or j == n - 1:
-                    print("*", end="\t")
-                else:
-                    print(" ", end="\t")
-        print()
+                print(' ', end='')
+        elif i == mid:
+            # Middle crossbar
+            print('*', end='')
+        else:
+            # Bottom half: right arm and bottom arm
+            if j == mid or j == N - 1 or (i == N - 1 and j <= mid):
+                print('*', end='')
+            else:
+                print(' ', end='')
+    print()
