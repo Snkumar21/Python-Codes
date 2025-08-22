@@ -11,5 +11,5 @@ def find_village_name(villagers):
     return prefix
 
 # Example
-villagers = ["ramkrishan", "ramsudah", "ramlakhan", "ramesh"]
+villagers = input("Enter villagers' names separated by space: ").split()
 print("Village Name:", find_village_name(villagers))
