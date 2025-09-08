@@ -1,3 +1,5 @@
+# Given a matrix of size[n][m], find its sum using recursion. arr[3][4] = [(4, 5, 6, 1),(2, 3, 2, 1), (1, 3, 6, 7)]
+
 def sum_matrix(arr, n, m):
     # Base case: if matrix is empty
     if n == 0:
