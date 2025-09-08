@@ -15,4 +15,4 @@ arr = [
 n = len(arr)
 m = len(arr[0]) if arr else 0
 
-print(sum_matrix(arr, n, m))
+print(sum_matrix(arr, n, m))    
