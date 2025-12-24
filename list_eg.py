@@ -1,4 +1,4 @@
 # Example of List.
 
-fruits = ["apple", "banana", "orange"]
-print(fruits)
+veg = ["lady-finger", "Carrots", "Potato"]
+print(veg)
