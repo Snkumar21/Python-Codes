@@ -1,0 +1,5 @@
+# Example of loop in the list.
+
+thislist = ["apple", "banana", "cherry"]
+for x in thislist:
+    print(x)
